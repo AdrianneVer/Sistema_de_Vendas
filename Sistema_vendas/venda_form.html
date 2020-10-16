@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="formulario1.css">    
+</head>
+
+<div class="formulario">
+    <form id="formVendas" method="post">
+<div class="grid">
+  
+          
+
+            <tr>
+                <td>Nome do Cliente: </td><td> 
+                    <select name="campo_nome" id="cmpNm"  required>
+
+                        <option value="#">Selecione...</option>
+
+                    </select>
+
+    
+            </tr>
+
+            <tr>
+
+                <td>Codigo do equipamento: </td><td> 
+                    <select name="campo_codigo" id="cmpCd" required>
+
+                        <option value="#">Selecione...</option>
+
+                    </select>
+
+            </tr>
+
+
+            <tr>
+
+                <td> Nome do Vendedor: </td><td><input type="type" name="campo_vendedor" id="cmVd" placeholder="Digite o nome do vendedor" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Data da Venda: </td><td><input type="date" name="campo_data_venda" id="cmpEm" required></td>
+
+            </tr>
+            
+
+            <tr>
+
+                <td>Preço: </td><td><input type="text" name="campo_preco" id="cmpP" placeholder="Digite o preço" required></td>
+
+            </tr>
+
+
+            <tr>
+
+                <td>Forma de Pagamento: </td><td><input type="text" name="campo_pagamento" id="cmPc" placeholder="Digite o forma de pagamento (Vista, crediario ou cartão)" required></td>
+
+            </tr>
+            <tr>
+
+                <td>Quantidade de parcela: </td><td><input type="text" name="campo_parcela" id="cmoP" placeholder="Digite a quantidade de parcela. Ex: 1x, 2x..." required></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Descrição: </td><td><input type="text" name="campo_descricao" id="cmdP" placeholder="Digite uma descrição" required></td>
+
+            </tr>
+        </div>
+
+                
+                <td></td><input type="submit" value="SALVAR"></td><td></td>
+                <input type="reset" name="bt_limpar" value="Limpar">
+                
+          </form>
+            </div>
+         </div>
+        </body>
+        </html>
